@@ -41,10 +41,12 @@ button {
 .btn {
     padding: 10px 15px;
     border-radius: 30px;
+    letter-spacing: .2rem;
 }
 
 .btn-white {
     background-color: white;
+    color: black;
 }
 
 .btn-blue {
@@ -65,6 +67,7 @@ h5 {
 
 p {
     line-height: 160%;
+    color: #455460;
 }
 
 
@@ -118,6 +121,10 @@ header a {
     color: white;
 }
 
+header .btn {
+    letter-spacing: normal;
+}
+
 .hamburger-menu {
     display: none;
 }
@@ -127,9 +134,12 @@ header a {
 
 /* SECTION GET DEMO START ****************/
 
+#get-demo {
+    margin-block: 100px;
+}
+
 #get-demo.cards {
     gap: 20px;
-    padding-block: 50px;
     align-items: stretch;
 }
 
@@ -155,21 +165,13 @@ header a {
 }
 
 #get-demo .card-big figure {
-    position: relative;
     flex-basis: 50%;
-    height: 100%;
-}
-
-#get-demo .card-big img {
-    position: absolute;
-    bottom: 0;
-    height: inherit;
-    width: auto;
 }
 
 #get-demo .card-big button {
-    padding-inline: 35px;
+    padding-inline: 50px;
     margin-top: 30px;
+    font-weight: 600;
 }
 
 #get-demo .card-small {
@@ -187,6 +189,8 @@ header a {
     color: var(--colorBlue);
 }
 
+/* !SECTION GET DEMO END */
+
 
 /************************************************
     RESPONSIVE
@@ -201,6 +205,9 @@ header a {
         margin-inline: 3%;
     }
 
+
+    /* HEADER */
+
     header nav {
         display: none;
     }
@@ -214,6 +221,17 @@ header a {
         font-size: 1.5rem;
     }
 
+
+    /* GET DEMO SECTION */
+
+    #get-demo .card-big {
+        flex-direction: column;
+    }
+
+    #get-demo .card-big figure {
+        width: 50%;
+    }
+
 }
 
 
@@ -225,9 +243,20 @@ header a {
         margin-inline: 8%;
     }
 
-    .hamburger-menu i {
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    h5 {
         font-size: 2rem;
     }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+
+    /* HEADER */
 
     header {
         padding-block: 20px;
@@ -235,6 +264,44 @@ header a {
 
     #logo {
         height: 60px;
+    }
+
+    .hamburger-menu i {
+        font-size: 2rem;
+    }
+
+
+    /* GET DEMO SECTION */
+
+    #get-demo.cards {
+        gap: 30px;
+    }
+
+    #get-demo .card {
+        padding: 40px 30px;
+    }
+
+    #get-demo .card-big {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    
+    #get-demo .card-big figure {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #get-demo .card-big button {
+        padding: 20px 80px;
+        margin-top: 50px;
+    }
+    
+    #get-demo .card-small {
+        width: 100%;
+    }
+
+    #get-demo .card-small i {
+        font-size: 5rem;
     }
 
 }
