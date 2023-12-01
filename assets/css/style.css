@@ -1,5 +1,97 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+:root {
+    --colorBlue: #0084FD;
+    --colorPurple: #9692E4;
+    --colorYellow: #FDC15F;
+    --boxBorderRadius-small: 10px;
+    --boxBorderRadius-big: 30px;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-blue {
+    background-color: var(--colorBlue);
+}
+
+.btn-purple {
+    background-color: var(--colorPurple);
+}
+
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+ .flex {
+    display: flex;
+ }
+
+ .container {
+    margin-inline: 10%;
+ }
+
+
+
+ /************************************************
+    SITE SECTIONS
+ ************************************************/
+
+
+ /* SECTION HEADER START ****************/
+
+header {
+    background-color: #0084FD;
+    padding-block: 15px;
+}
+
+header>div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+}
+
+header a {
+    color: white;
 }
