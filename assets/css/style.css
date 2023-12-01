@@ -1,6 +1,6 @@
 /*************************************************
     GENERAL STYLES
- *************************************************/
+*************************************************/
 
 * {
     margin: 0;
@@ -30,6 +30,7 @@ button {
     --colorBlue: #0084FD;
     --colorPurple: #9692E4;
     --colorYellow: #FDC15F;
+    --colorLightBlue: #B4DDFF;
     --boxBorderRadius-small: 10px;
     --boxBorderRadius-big: 30px;
 }
@@ -57,24 +58,33 @@ button {
 
 /************************************************
     UTILITIES
- ************************************************/
+************************************************/
 
 .flex {
     display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     margin-inline: 10%;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 
 
- /************************************************
+
+/************************************************
     SITE SECTIONS
- ************************************************/
+************************************************/
 
 
- /* SECTION HEADER START ****************/
+/* SECTION HEADER START ****************/
 
 header {
     background-color: var(--colorBlue);
@@ -103,10 +113,31 @@ header a {
 /* !SECTION HEADER END */
 
 
+/* SECTION GET DEMO START ****************/
 
- /************************************************
+#get-demo.cards {
+    gap: 20px;
+    padding-block: 50px;
+    align-items: stretch;
+}
+
+#get-demo .card {
+    background-color: var(--colorLightBlue);
+    border-radius: var(--boxBorderRadius-small);
+}
+
+#get-demo .card-big {
+    width: calc((100% / 3) * 2 - 20px + (20px / 3 * 2));
+}
+
+#get-demo .card-small {
+    width: calc((100% / 3) - 20px + (20px / 3));
+}
+
+
+/************************************************
     RESPONSIVE
- ************************************************/
+************************************************/
 
 
 /* RESPONSIVE TABLET (748px) **********/
