@@ -253,6 +253,8 @@ header .btn {
     font-size: .8rem;
 }
 
+/* !SECTION PLANNING END */
+
 
 /************************************************
     RESPONSIVE
@@ -292,6 +294,27 @@ header .btn {
 
     #get-demo .card-big figure {
         width: 50%;
+    }
+
+
+    /* PLANNING SECTION */
+
+    #planning .container {
+        flex-direction: column;
+        margin-inline: 3%;
+    }
+
+    #planning .left-column figure {
+        margin-bottom: 50px;
+    }
+
+    #planning .left-column h4 {
+        font-size: 4rem;
+        margin-bottom: 40px;
+    }
+
+    #planning .right-column {
+        margin-top: 10px;
     }
 
 }
