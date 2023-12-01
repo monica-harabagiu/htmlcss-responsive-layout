@@ -49,10 +49,22 @@ button {
 
 .btn-blue {
     background-color: var(--colorBlue);
+    color: white;
 }
 
 .btn-purple {
     background-color: var(--colorPurple);
+}
+
+
+/* TEXT */
+
+h5 {
+    font-size: 1.1rem;
+}
+
+p {
+    line-height: 160%;
 }
 
 
@@ -124,14 +136,55 @@ header a {
 #get-demo .card {
     background-color: var(--colorLightBlue);
     border-radius: var(--boxBorderRadius-small);
+    padding: 30px 20px;
+}
+
+#get-demo .card h5 {
+    color: var(--colorBlue);
+    margin-bottom: 30px;
 }
 
 #get-demo .card-big {
     width: calc((100% / 3) * 2 - 20px + (20px / 3 * 2));
+    gap: 20px;
+    padding-bottom: 0;
+}
+
+#get-demo .card-big div {
+    flex-basis: 50%;
+}
+
+#get-demo .card-big figure {
+    position: relative;
+    flex-basis: 50%;
+    height: 100%;
+}
+
+#get-demo .card-big img {
+    position: absolute;
+    bottom: 0;
+    height: inherit;
+    width: auto;
+}
+
+#get-demo .card-big button {
+    padding-inline: 35px;
+    margin-top: 30px;
 }
 
 #get-demo .card-small {
     width: calc((100% / 3) - 20px + (20px / 3));
+    align-items: center;
+}
+
+#get-demo .card-small p {
+    text-align: center;
+}
+
+#get-demo .card-small i {
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    color: var(--colorBlue);
 }
 
 
