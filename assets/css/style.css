@@ -425,6 +425,13 @@ header .btn {
         margin-top: 10px;
     }
 
+    
+    /* BENEFITS SECTION */
+
+    #benefits .card {
+        width: calc((100% / 2) - 20px + 20px/2 );
+    }
+
 }
 
 
@@ -522,6 +529,13 @@ header .btn {
     .testimonial-card .name {
         text-align: center;
         font-size: 1.5rem;
+    }
+
+
+    /* BENEFITS SECTION */
+
+    #benefits .card {
+        width: 100%;
     }
 
 }
