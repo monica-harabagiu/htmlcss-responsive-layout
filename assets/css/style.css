@@ -61,12 +61,22 @@ button {
 
 /* TEXT */
 
+h3 {
+    font-size: 1.5rem;
+}
+
 h4 {
     font-size: 1.6rem;
 }
 
 h5 {
     font-size: 1.1rem;
+}
+
+h6 {
+    font-weight: 200;
+    font-size: .9rem;
+    text-transform: uppercase;
 }
 
 p {
@@ -254,6 +264,62 @@ header .btn {
 }
 
 /* !SECTION PLANNING END */
+
+
+/* SECTION TESTIMONIALS START ********************************/
+
+#testimonials {
+    margin-block: 100px;
+}
+
+#testimonials .intro {
+    text-align: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+#testimonials h3 {
+    color: var(--colorPurple);
+}
+
+.testimonil-cards {
+    gap: 30px;
+}
+
+.testimonial-card {
+    background-color: var(--colorPurple);
+    color: white;
+    padding: 20px 10px;
+    gap: 40px;
+    align-items: center;
+    border-radius: var(--boxBorderRadius-big);
+}
+
+.testimonial-card figure {
+    width: 300px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.testimonial-card .testimonial1 {
+    background-image: url("../img/testimonial1.jpg");
+}
+
+.testimonial-card .testimonial2 {
+    background-image: url("../img/testimonial2.jpg");
+}
+
+.testimonial-card .testimonial3 {
+    background-image: url("../img/testimonial3.jpg");
+}
+
+.testimonial-card .name {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
 
 
 /************************************************
