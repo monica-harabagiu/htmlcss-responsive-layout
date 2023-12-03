@@ -283,7 +283,7 @@ header .btn {
 }
 
 .testimonil-cards {
-    gap: 30px;
+    gap: 20px;
 }
 
 .testimonial-card {
@@ -398,8 +398,16 @@ header .btn {
         font-size: 1.2rem;
     }
 
+    h3 {
+        font-size: 2.5rem;
+    }
+
     h5 {
         font-size: 2rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
     }
 
     p {
@@ -453,6 +461,25 @@ header .btn {
 
     #get-demo .card-small i {
         font-size: 5rem;
+    }
+
+    /* TESTIMONIALS SECTION */
+
+    .testimonial-card {
+        flex-direction: column;
+    }
+
+    .testimonial-card figure {
+        width: 250px;
+    }
+
+    .testimonial-card p {
+        text-align: center;
+    }
+
+    .testimonial-card .name {
+        text-align: center;
+        font-size: 1.5rem;
     }
 
 }
