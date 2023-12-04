@@ -363,6 +363,58 @@ header .btn {
     padding-inline: 30px;
 }
 
+/* !SECTION BENEFITS END */
+
+
+/* SECTION BENEFITS START ********************************/
+
+#about-us {
+    padding-inline: 3%;
+    margin-block: 100px;
+    gap: 80px;
+}
+
+#about-us h2 {
+    color: var(--colorPurple);
+}
+
+#about-us .col-left {
+    gap: 20px;
+    flex-basis: 70%;
+}
+
+#about-us .col-right {
+    gap: 20px;
+    flex-basis: 30%;
+}
+
+#about-us .col-right figure {
+    background-image: url("../img/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#about-us .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    color: var(--colorPurple);
+}
+
+#about-us .col-right h4 {
+    color: var(--colorPurple);
+    font-size: 2rem;
+}
+
+#about-us .col-right button {
+    letter-spacing: 0;
+}
+
 
 /************************************************
     RESPONSIVE
