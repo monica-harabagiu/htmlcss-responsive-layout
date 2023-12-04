@@ -418,6 +418,54 @@ header .btn {
 /* !SECTION ABOUT US END */
 
 
+/* SECTION GET STARTED START ********************************/
+
+#get-started {
+    background-color: var(--colorPurple);
+    color: white;
+    padding-block: 50px;
+}
+
+#get-started > div {
+    align-items: center;
+    gap: 20px;
+}
+
+#get-started h3 {
+    font-size: 2rem;
+}
+
+#get-started h2 {
+    color: var(--colorYellow);
+    font-size: 4rem;
+}
+
+#get-started p {
+    margin-inline: 35%;
+    text-align: center;
+}
+
+#get-started button {
+    color: var(--colorPurple);
+    padding: 15px 40px;
+}
+
+#get-started .copyright {
+    font-size: .7rem;
+    align-items: center;
+    gap: 5px;
+}
+
+#get-started .copyright i {
+    font-size: .3rem;
+}
+
+#get-started .copyright a {
+    color: white;
+    text-decoration: underline;
+}
+
+
 /************************************************
     RESPONSIVE
 ************************************************/
