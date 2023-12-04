@@ -415,6 +415,8 @@ header .btn {
     letter-spacing: 0;
 }
 
+/* !SECTION ABOUT US END */
+
 
 /************************************************
     RESPONSIVE
@@ -482,6 +484,13 @@ header .btn {
 
     #benefits .card {
         width: calc((100% / 2) - 20px + 20px/2 );
+    }
+
+
+    /* ABOUT US SECTION */
+
+    #about-us .col-right h4 {
+        font-size: 1.5rem;
     }
 
 }
@@ -588,6 +597,22 @@ header .btn {
 
     #benefits .card {
         width: 100%;
+    }
+
+
+    /* ABOUT US SECTION */
+
+    #about-us {
+        flex-direction: column;
+    }
+
+    #about-us .col-right h4 {
+        font-size: 2rem;
+    }
+
+    #about-us .col-right figure {
+        height: 200px;
+        width: 200px;
     }
 
 }
