@@ -31,6 +31,7 @@ button {
     --colorPurple: #9692E4;
     --colorYellow: #FDC15F;
     --colorLightBlue: #B4DDFF;
+    --colorFooter: #333333;
     --boxBorderRadius-small: 10px;
     --boxBorderRadius-big: 30px;
 }
@@ -466,6 +467,28 @@ header .btn {
     text-decoration: underline;
 }
 
+/* !SECTION GET STARTED END */
+
+
+/* SECTION FOOTER START ********************************/
+
+footer {
+    background-color: var(--colorFooter);
+    color: white;
+    text-align: center;
+    padding: 2% 35%;
+    gap: 20px;
+}
+
+footer p {
+    font-size: .7rem;
+}
+
+footer a {
+    color: var(--colorPurple);
+    text-decoration: underline;
+}
+
 
 /************************************************
     RESPONSIVE
@@ -555,6 +578,18 @@ header .btn {
 
     #get-started p {
         margin-inline: 20%;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 5% 20%;
+        gap: 30px;
+    }
+    
+    footer p {
+        font-size: .9rem;
     }
 
 }
@@ -688,6 +723,18 @@ header .btn {
 
     #get-started h3 {
         font-size: 2.5rem;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 10% 15%;
+        gap: 30px;
+    }
+    
+    footer p {
+        font-size: 1.1rem;
     }
 
 }
